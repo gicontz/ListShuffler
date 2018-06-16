@@ -18,7 +18,7 @@ integers.Add(3);
 integers.Add(4);
 integers.Add(5);
 
-foreach(int ix in col.Shuffle<int>(integers)){
+foreach(int ix in col.Shuffle&lt;int&gt;(integers)){
   Console.WriteLine(ix);
 }
   
