@@ -9,7 +9,7 @@
 using ListShuffler;
 </code>
 
-<code>
+<pre>
 Collections col = new Collections();
 List<int> integers = new List<int>();
 integers.Add(1);
@@ -23,4 +23,4 @@ foreach(int ix in col.Shuffle<int>(integers)){
 }
   
 Console.ReadKey();
-</code>
+</pre>
